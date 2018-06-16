@@ -45,9 +45,10 @@ var lives = 5;
         if(lives <= 0) {
         document.getElementById("youLose").style.cssText = "display:block";
         document.getElementById("fullContainer").style.cssText = "display: none";
+        document.getElementById("youLose").innerText = "We have a loser! Press any key to play again, and your word was " + randomWord;
         losses++;
         hasFinished = true;
-    };
+    }
 }
     
     document.getElementById("myContainer").innerHTML = "<h1>Welcome to Mike's Hangman Game!</h1>"  
