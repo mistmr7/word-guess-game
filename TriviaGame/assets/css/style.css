@@ -1,0 +1,12 @@
+body {
+    background-image: url('../../assets/img/background.jpg');
+    background-size: cover;
+}
+
+#quiz, .jumbotron, p {
+    background-color: lightgray
+}
+
+p, form {
+    font-size: 20px;
+}

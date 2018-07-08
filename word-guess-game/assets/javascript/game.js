@@ -53,7 +53,7 @@ var lives = 5;
     
     document.getElementById("myContainer").innerHTML = "<h1>Welcome to Mike's Hangman Game!</h1>"  
     document.getElementById("totalWins").innerHTML = "<p>Wins: " + wins + "</p>" 
-    document.getElementById("currentWord").innerHTML = "<p>Your word is  " + emptyWord.join("") + "</p>"
+    document.getElementById("currentWord").innerHTML = "<p>Your word is  " + emptyWord.join(" ") + "</p>"
     document.getElementById("lives").innerHTML = "<p>You have " + lives + " lives left, choose wisely.</p>"
     document.getElementById("lettersGuessed").innerHTML = "<p>You have guessed: " + lettersGuessed + "</p>"
     document.getElementById("totalLosses").innerHTML = "<p>Losses: " + losses + "</p>"
