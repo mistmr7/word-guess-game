@@ -1,2 +1,1 @@
 # AJAX
-Homework for bootcamp
